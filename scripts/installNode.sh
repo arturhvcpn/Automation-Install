@@ -9,10 +9,6 @@ DEPENDECIES_NODE=(
     nodejs
 )
 
-sudo apt-get update && sudo apt-get upgrade -y
-
-curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-
 function installDependencie {
     for name_dependecie in ${DEPENDECIES_NODE[@]}; do
         if ! dpkg -l | grep -q ${name_dependecie}; then
@@ -31,6 +27,7 @@ function checkedVersionDependencie {
 }
 
 function main {
+    curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
     sudo apt-get update && sudo apt-get upgrade -y
     installDependencie
     checkedVersionDependencie

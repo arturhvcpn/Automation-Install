@@ -15,8 +15,6 @@ DEPENDECIES_YARN=(
     react-native-cli
 )
 
-sudo apt-get update && sudo apt-get upgrade -y
-
 function installDependencie {
     for name_dependecie in ${DEPENDECIES_YARN[@]}; do
         if ! yarn global list | grep -q ${name_dependecie}; then

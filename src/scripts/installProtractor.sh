@@ -24,9 +24,6 @@ DEPENDECIES_PROTRACTOR_DEV=(
 # webdriver-manager update
 # webdriver-manager start
 
-
-sudo apt-get update && sudo apt-get upgrade -y
-
 function installDependencie {
     for name_dependecie in ${DEPENDECIES_PROTRACTOR[@]}; do
         if ! npm list -g | grep -q ${name_dependecie}; then

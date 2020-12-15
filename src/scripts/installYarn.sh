@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
 CHECKED_DEPENDECIES=(
+    nodemon
     create-react-app
     expo
     expo-cli
-    react-native    
+    react-native
 )
 
 DEPENDECIES_YARN=(
+    nodemon
     create-react-app
     expo
     expo-cli

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/artur/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -127,19 +127,7 @@ alias adpful="ant deploy-full"
 alias adpfas="ant deploy-fast"
 alias acreclp="ant create-eclipse-project"
 alias run:protractor="ant run-tests-protractor"
-alias tsserver:run="target-static-server --port 8088 --public_folder /home/artur/workspace/target3/portal/data"
-
-#Shortcut for HD
-alias caddyhome="cd /media/artur/764b14da-55de-4121-bd69-75c02d9d4264/home/everson"
-
-#Shortcut for workspace
-alias dip:gervia=" cd /home/artur/Área\ de\ Trabalho/Artur/Estudos/API\ Rest/project/gerenciador-viagens"
-alias dip:work="cd /home/artur/workspace"
-alias dip:tgt3="cd /home/artur/workspace/target3"
-alias dip:tgt2="cd /home/artur/workspace/target3/target2"
-alias dip:tsserver="cd /home/artur/workspace/target-static-server"
-alias dip:tgtapp="cd /home/artur/workspace/target-ops"
-alias dip:tgtstand="cd /home/artur/workspace/target3/portal/jboss-eap-6.4/standalone/configuration"
+alias tsserver:run="target-static-server --port 8088 --public_folder /home/$USER/workspace/target3/portal/data"
 
 #Shortcut for Git
 alias gst="git status"

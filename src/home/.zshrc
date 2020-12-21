@@ -120,31 +120,6 @@ export PATH="$PATH:$(yarn global bin)"
 #Apply global scripts from ~/home/bin
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-#Shortcut for Ant
-alias acldp="ant clean-and-deploy"
-alias aclcp="ant clean-compiled"
-alias adpful="ant deploy-full"
-alias adpfas="ant deploy-fast"
-alias acreclp="ant create-eclipse-project"
-alias run:protractor="ant run-tests-protractor"
-alias tsserver:run="target-static-server --port 8088 --public_folder /home/$USER/workspace/target3/portal/data"
-
-#Shortcut for Git
-alias gst="git status"
-alias gch="git checkout"
-alias gad="git add"
-alias gcm="git commit -m"
-alias gpul="git pull"
-alias gpus="git push"
-alias gfet="git fetch"
-
-#Shortcut to kill jboss or port
-alias killjbs="kill -9 `ps aux | grep jboss | grep -v grep | awk '{print $2}'`"
-#alias killbport $PORT= "sudo kill -9 `sudo lsof -t -i:{$PORT}`"
-
-alias cbashrc="code ~/.bashrc"
-alias czshrc="code ~/.zshrc"
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"

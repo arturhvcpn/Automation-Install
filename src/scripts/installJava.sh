@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 $URL_JAVA="https://drive.google.com/file/d/19hymvBjvA9Glt1Ydtmk2sPXLkBhwf8U3/view?usp=sharing"
 $DIR_DOWNLOAD_JAVA="$HOME/Downloads/java"
 $FILE_ID="19hymvBjvA9Glt1Ydtmk2sPXLkBhwf8U3"

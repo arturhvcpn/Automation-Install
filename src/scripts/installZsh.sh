@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # $LINK_RAW_OHMYZSH="$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # $LINK_RAW_ZINIT="$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 

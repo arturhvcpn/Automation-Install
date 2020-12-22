@@ -98,22 +98,22 @@ Now let's execute!!
 ## Eclipse
 ### Run in eclipse workspace
 #####   1. Enter the Ant Tab
-![](assets/README/firstImageEclipseWorkspace.png)
+![](https://imgur.com/Qk1UiqO)
 
 #####   2. Click in run-tests-protractor
-![](assets/README/secondImageEclipseWorkspaceAnt.png)
+![](https://imgur.com/bqTEKv9)
 
 #####  3. Enter url of login domain or Click OK for default 
-![](assets/README/thirthyImageEclipseWorkspaceUrl.png)
+![](https://imgur.com/ZrWzspc)
 
 #####  4. Enter email to login or Click OK for default
-![](assets/README/fourthImageLoginWorkSpace.png)
+![](https://imgur.com/5zNtRta)
 
 #####  5. Enter password to login
-![](assets/README/fifthImageEclipseWorkspacePassword.png)
+![](https://imgur.com/nTnMj1G)
 
 #####  6. Enter the suite of test or  Click OK for default
-![](assets/README/sixthImageEclipseWorkspaceSuite.png)
+![](https://imgur.com/Q2qgfMi)
 
 ---
 

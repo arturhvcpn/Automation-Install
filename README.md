@@ -8,7 +8,28 @@ The README is considered the prerequisites expected below for the execution prot
   - [Enviroment Run ](https://github.com/facilit/target3/wiki/Enviroment-Util)
 ---
 
-### Run on terminal linux
+### Run in the eclipse workspace
+#####   Enter the Ant Tab
+![](assets/README/firstImageEclipseWorkspace.png)
+
+#####   Click in run-tests-protractor
+![](assets/README/secondImageEclipseWorkspaceAnt.png)
+
+#####  Enter url of login domain or Click OK for default 
+![](assets/README/thirthyImageEclipseWorkspaceUrl.png)
+
+#####  Enter email to login or Click OK for default
+![](assets/README/fourthImageLoginWorkSpace.png)
+
+#####  Enter password to login
+![](assets/README/fifthImageEclipseWorkspacePassword.png)
+
+#####  Enter the suite of test or  Click OK for default
+![](assets/README/sixthImageEclipseWorkspaceSuite.png)
+
+---
+
+### Run in terminal linux
 #### Wherever the ❯ icon is considered input for commands:
 ```sh
 artur in ~
@@ -82,7 +103,6 @@ run-tests-protractor:
     [input]  [--suite r]
 ❯   --suite n,i,r
 ```
-
 
 License
 ----

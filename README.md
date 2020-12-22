@@ -3,7 +3,7 @@
 ---
 The README is considered the prerequisites expected below for the execution protractor:
   - [Ubuntu 18.04.5 LTS (Bionic Beaver)](https://releases.ubuntu.com/18.04)
-  - [Chrome WebDriver](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
+  - [Chrome WebDriver](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb)
   - [Install Node, Npm, Protractor and Protractor-Beatiful-Reporter](https://github.com/facilit/target3/wiki/Tutorial-Instala%C3%A7%C3%A3o)
   - [Enviroment Run ](https://github.com/facilit/target3/wiki/Enviroment-Util)
 ---

@@ -8,6 +8,14 @@ The README is considered the prerequisites expected below for the execution prot
   - [Enviroment Run ](https://github.com/facilit/target3/wiki/Enviroment-Util)
 ---
 
+## Index 
+
+* [Eclipse](##Eclipse)
+* [Terminal](##Terminal)
+
+---
+
+## Eclipse
 ### Run in the eclipse workspace
 #####   1. Enter the Ant Tab
 ![](assets/README/firstImageEclipseWorkspace.png)
@@ -29,6 +37,7 @@ The README is considered the prerequisites expected below for the execution prot
 
 ---
 
+## Terminal
 ### Run in terminal linux
 #### Wherever the ❯ icon is considered input for commands:
 ```sh

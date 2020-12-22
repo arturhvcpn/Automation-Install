@@ -9,22 +9,22 @@ The README is considered the prerequisites expected below for the execution prot
 ---
 
 ### Run in the eclipse workspace
-#####   Enter the Ant Tab
+#####   1. Enter the Ant Tab
 ![](assets/README/firstImageEclipseWorkspace.png)
 
-#####   Click in run-tests-protractor
+#####   2. Click in run-tests-protractor
 ![](assets/README/secondImageEclipseWorkspaceAnt.png)
 
-#####  Enter url of login domain or Click OK for default 
+#####  3. Enter url of login domain or Click OK for default 
 ![](assets/README/thirthyImageEclipseWorkspaceUrl.png)
 
-#####  Enter email to login or Click OK for default
+#####  4. Enter email to login or Click OK for default
 ![](assets/README/fourthImageLoginWorkSpace.png)
 
-#####  Enter password to login
+#####  5. Enter password to login
 ![](assets/README/fifthImageEclipseWorkspacePassword.png)
 
-#####  Enter the suite of test or  Click OK for default
+#####  6. Enter the suite of test or  Click OK for default
 ![](assets/README/sixthImageEclipseWorkspaceSuite.png)
 
 ---
@@ -35,18 +35,18 @@ The README is considered the prerequisites expected below for the execution prot
 artur in ~
 ❯ 
 ```
-#### Change directory for workspace of target3/target2, in this example my workspace directory is:
+####   1. Change directory for workspace of target3/target2, in this example my workspace directory is:
 ```sh
 artur in ~
 ❯ cd /home/artur/workspace/target3/target2
 ```
-####   Type on terminal and press Enter for execute
+####   2. Type on terminal and press Enter for execute
 ```sh
 artur in target3/target2
 ❯ ant run-tests-protractor
 ```
 
-####  Enter url of login domain or press Keyboard Enter for url default [localhost](http://localhost:8080/web/facilit/login)
+####  3. Enter url of login domain or press Keyboard Enter for url default [localhost](http://localhost:8080/web/facilit/login)
 ```sh
 artur in target3/target2
  ant run-tests-protractor
@@ -65,7 +65,7 @@ run-tests-protractor:
 ❯
 ```
 
-####  Enter email to login or press Keyboard Enter for url default
+####  4. Enter email to login or press Keyboard Enter for url default
 ```sh
     [input] Host to test [http://localhost:8080/web/facilit/login]
 
@@ -73,7 +73,7 @@ run-tests-protractor:
 ❯  
 ```
 
-####  Enter password to login
+####  5. Enter password to login
 ```sh
     [input] Host to test [http://localhost:8080/web/facilit/login]
 
@@ -82,7 +82,7 @@ run-tests-protractor:
     [input] User test password
 ❯  
 ```
-####    Enter the suite of test
+####  6. Enter the suite of test
 ```sh
 run-tests-protractor:
     [input] Host to test [http://localhost:8080/web/facilit/login]

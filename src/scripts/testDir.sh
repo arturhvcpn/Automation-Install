@@ -3,13 +3,8 @@ DIR_DOWNLOAD="$HOME/Downloads"
 DIR_DOWNLOAD_ANT="$HOME/Downloads/ant"
 
 LIST_DIR=(
-    $HOME/Downloads/test00
-    $HOME/Downloads/test01
-    $HOME/Downloads/test02
-    $HOME/Downloads/test03
-    $HOME/Downloads/test04
-    $HOME/Downloads/test05
-    $HOME/Downloads/test06
+    $HOME/workspace
+    /opt/jdk
 )
 
 function makeDir {
@@ -30,12 +25,12 @@ function removeDir {
             echo -e "\033[1;32m Diretorio ${name_directory} removido com sucesso \033[0m"
         else
             echo -e "\031[1;33m Diretorio ${name_directory} nao foi removido \033[0m"
-        fi
+        fi                          
     done
 }
 function main {
     # makeDir
-    # removeDir
+    removeDir
 }
 
 main

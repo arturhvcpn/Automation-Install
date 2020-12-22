@@ -34,7 +34,7 @@ function downloadAnt {
 
 function main {
     sudo apt-get update && sudo apt-get upgrade -y
-    makeDir
+    source ./testDir.sh # makeDir
     changeDir
     downloadAnt
 }

@@ -8,8 +8,13 @@ The README is considered the prerequisites expected below for the execution prot
   - [Enviroment Run ](https://github.com/facilit/target3/wiki/Enviroment-Util)
 ---
 
-# Run on terminal linux
-Change directory for workspace of target3/target2, in this example my workspace directory isn't
+### Run on terminal linux
+#### Wherever the icon ❯ is considered commands sh:
+```sh
+artur in ~
+❯ 
+```
+#### Change directory for workspace of target3/target2, in this example my workspace directory is:
 ```sh
 artur in ~
 ❯ cd /home/artur/workspace/target3/target2
@@ -20,10 +25,10 @@ artur in target3/target2
 ❯ ant run-tests-protractor
 ```
 
-####   Input url of domain or press Enter for default []
+####  Enter url of login domain or press Keyboard Enter for url default [localhost](http://localhost:8080/web/facilit/login)
 ```sh
 artur in target3/target2
-❯  ant run-tests-protractor
+ ant run-tests-protractor
 Buildfile: /home/artur/workspace/target3/target2/build.xml
 
 run-tests-protractor:
@@ -36,35 +41,35 @@ Trying to override old definition of task javac
 
 run-tests-protractor:
     [input] Host to test [http://localhost:8080/web/facilit/login]
-    
+❯
 ```
 
-####   Input email
+####  Enter email to login or press Keyboard Enter for url default
 ```sh
     [input] Host to test [http://localhost:8080/web/facilit/login]
-❯  
+
     [input] User test e-mail [suporte@communis.com.br]
 ❯  
 ```
 
-####   Input password
+####  Enter password to login
 ```sh
     [input] Host to test [http://localhost:8080/web/facilit/login]
-❯  
+
     [input] User test e-mail [suporte@communis.com.br]
-❯  
+
     [input] User test password
 ❯  
 ```
-####   Input suite of test
+####    Enter the suite of test
 ```sh
 run-tests-protractor:
     [input] Host to test [http://localhost:8080/web/facilit/login]
-❯  
+
     [input] User test e-mail [suporte@communis.com.br]
-❯  
+
     [input] User test password
-❯  
+
     [input] Add suite test typing '--suite t', where 't' is the suite test name. 
     [input]   Suites available: 
     [input]          i -> indicator 
@@ -75,7 +80,7 @@ run-tests-protractor:
     [input]       **If you want execute more than one test, use comma to separete them, like 'n,i' 
     [input]          **OBS: for the first execution, suite 'i' depends on suite 'r'. So to test indicator at first time, use '--suite r,i'.
     [input]  [--suite r]
-❯  
+❯   --suite n,i,r
 ```
 
 

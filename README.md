@@ -9,14 +9,12 @@ The README is considered the prerequisites expected below for the execution prot
 ---
 
 ## Index 
-
-* [Eclipse](##Eclipse)
-* [Terminal](##Terminal)
+* [Eclipse](#eclipse)
+* [Terminal](#terminal)
 
 ---
-
 ## Eclipse
-### Run in the eclipse workspace
+### Run in eclipse workspace
 #####   1. Enter the Ant Tab
 ![](assets/README/firstImageEclipseWorkspace.png)
 

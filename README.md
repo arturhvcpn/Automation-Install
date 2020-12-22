@@ -9,7 +9,7 @@ The README is considered the prerequisites expected below for the execution prot
 ---
 
 ### Run on terminal linux
-#### Wherever the icon ❯ is considered commands sh:
+#### Wherever the ❯ icon is considered input for commands:
 ```sh
 artur in ~
 ❯ 
